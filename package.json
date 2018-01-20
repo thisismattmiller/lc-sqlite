@@ -1,0 +1,26 @@
+{
+  "name": "lc-sqlite",
+  "version": "1.0.0",
+  "description": "Scripts to turn the LC MARC records to a SQLite DB",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/thisismattmiller/lc-sqlite.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/thisismattmiller/lc-sqlite/issues"
+  },
+  "homepage": "https://github.com/thisismattmiller/lc-sqlite#readme",
+  "dependencies": {
+    "better-sqlite3": "^4.0.3",
+    "glob": "^7.1.2",
+    "highland": "^2.11.1",
+    "marcjs": "^0.1.13",
+    "sqlite3": "^3.1.13"
+  }
+}
